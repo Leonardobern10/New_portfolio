@@ -1,0 +1,48 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 2px solid black;
+    border-bottom: none;
+}
+
+.head{
+    padding: .8rem;
+}
+
+.menu_head{
+    background-image: url("../images/Vector.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    padding-right: 2rem;
+}
+
+.logo_head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container_img_head{
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+.name_head{
+    margin-left: .5rem;
+
+    font-size: 20px;
+    font-family: 'Sora', sans-serif;
+    letter-spacing: 0.1px;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,98 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: "Sora", sans-serif;
+}
+
+.item_main{
+    margin: 1rem 0;
+    padding: .5rem .5rem;
+}
+
+#container_img_main{
+    margin: 2rem 0;
+}
+
+#presentation_main{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    font-weight: 700;
+}
+
+.container_p_main{
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    text-align: justify;
+
+}
+
+.container_p_main p{
+    font-size: 1.2rem;
+}
+
+#span_p1_main{
+    letter-spacing: -1px;
+    margin-right: 8px;
+}
+
+#span_p2_main{
+    font-family: 'Unbounded', sans-serif;
+    letter-spacing: 2px;
+}
+
+#span_p3_main{
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+#profile_main{
+    text-align:left;
+}
+
+#container_buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button_social_media{
+    margin: 0 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    width: 2rem;
+    height: 2rem;
+
+    border: none;
+}
+
+#instagram{
+    background-image: url("../images/instagram_1400829.png");
+}
+
+#linkedin{
+    background-image: url("../images/linkedin_254394.png");
+}
+
+#twitter{
+    background-image: url("../images/letter-x_12452418.png");
+}
+
+#facebook{
+    background-image: url("../images/social_12942738.png");
+}
