@@ -29,8 +29,9 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
+    background-blend-mode:darken;
     overflow: hidden;
+    filter: grayscale(100%);
     
 }
 
