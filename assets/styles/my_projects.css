@@ -1,0 +1,53 @@
+.my_projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+
+    font-family: 'Sora', sans-serif;
+}
+
+.title_my_projects{
+    font-size: 2rem;
+    margin: 1rem 0;
+    margin-top: 3rem;
+}
+
+.container_project{
+    margin: 1rem;
+}
+
+.container_img_project{
+    background-image: url('../images/detona_ralph.jpeg');
+
+    height: 25rem;
+
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    overflow: hidden;
+    
+}
+
+.info_project{
+    padding: 1rem 0;
+}
+
+.title_project{
+    padding: .5rem 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.description_project{
+    color: gray;
+    font-size: .9rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
