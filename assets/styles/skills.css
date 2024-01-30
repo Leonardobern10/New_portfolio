@@ -1,0 +1,38 @@
+section{
+    margin: 3rem 0;
+}
+
+.skills{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Sora', sans-serif;
+}
+
+#titulo_skills{
+    font-size: 2rem;
+    word-spacing: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+
+}
+
+#container_skills{
+    margin: 1rem .7rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    grid-gap: 1rem;
+}
+
+.container_img_skills{
+    border: 2px red;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
