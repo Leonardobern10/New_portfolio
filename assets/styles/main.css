@@ -13,7 +13,7 @@ main{
 }
 
 #container_img_main{
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 #presentation_main{
@@ -25,6 +25,7 @@ main{
     align-items: center;
 
     font-weight: 700;
+
 }
 
 .container_p_main{
@@ -40,7 +41,7 @@ main{
 }
 
 .container_p_main p{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
 
 #span_p1_main{

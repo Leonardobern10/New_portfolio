@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 header{
     display: flex;
     flex-direction: row;
@@ -37,8 +39,9 @@ header{
     margin-left: .5rem;
 
     font-size: 20px;
-    font-family: 'Sora', sans-serif;
-    letter-spacing: 0.1px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: -2px;
+    font-weight: 300;
 }
 
 img{
