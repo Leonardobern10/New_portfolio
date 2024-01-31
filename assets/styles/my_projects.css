@@ -20,8 +20,6 @@
 }
 
 .container_img_project{
-    background-image: url('../images/detona_ralph.jpeg');
-
     height: 25rem;
 
     border: 1px solid gray;
@@ -51,4 +49,36 @@
     font-size: .9rem;
     font-weight: 400;
     margin-bottom: 1rem;
+}
+
+#project1{
+    background-image: url('../images/detona_ralph.jpeg');
+
+}
+
+#project2{
+    background-image: url('../images/jogo_da_velha.png');
+}
+
+#project3{
+    background-image: url('../images/jogo_da_memoria_com_textura_educacao_inclusiva_837_1_de1ec854d6c9385fa4c7bd17d2267bf8.webp');
+}
+
+#project4{
+    background-image: url('../images/listas-de-tarefas-significado-1024x576.jpeg');
+}
+#project5{
+    background-image: url('../images/pokedex.webp');
+}
+#project6{
+    background-image: url('../images/formula-IMC.png');
+}
+#project7{
+    background-image: url('../images/analise_de_ecommere.jpg');
+}
+#project8{
+    background-image: url('../images/analise_do_banco.webp');
+}
+#project9{
+    background-image: url('../images/analise_de_dicurso.jpg');
 }
