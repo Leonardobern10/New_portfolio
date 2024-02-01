@@ -12,6 +12,7 @@ main{
     padding: .5rem .5rem;
 }
 
+
 #container_img_main{
     margin: 1rem 0;
 }
@@ -60,18 +61,18 @@ main{
 }
 
 #profile_main{
-    text-align:left;
+    text-align: left;
 }
 
 #container_buttons{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
+
 .button_social_media{
-    margin: 0 1rem;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -79,8 +80,11 @@ main{
     width: 2rem;
     height: 2rem;
 
-    border: none;
+
+    margin: 0 1rem;
 }
+
+
 
 #instagram{
     background-image: url("../images/instagram_1400829.png");

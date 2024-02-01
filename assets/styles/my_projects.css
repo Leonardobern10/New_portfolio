@@ -37,12 +37,17 @@
     padding: 1rem 0;
 }
 
+.info_project a{
+    text-decoration: none;
+}
+
 .title_project{
     padding: .5rem 0;
     font-size: 1.5rem;
     font-weight: 700;
     color: white;
 }
+
 
 .description_project{
     color: gray;
