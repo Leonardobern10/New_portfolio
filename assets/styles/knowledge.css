@@ -1,53 +1,52 @@
-.knowledge{
-    font-family: 'Sora', sans-serif;
+.knowledge {
+  font-family: "Sora", sans-serif;
 
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    padding: 1rem 1rem;
+  padding: 1rem 1rem;
 }
-#span_title_about_me{
-    font-family: 'Rubik Doodle Shadow', system-ui;;
+#span_title_about_me {
+  font-family: "Rubik Doodle Shadow", system-ui;
 }
-#title_knowledge{
-    font-size: 1.7rem;
-    font-weight: 700;
-    padding: 2rem;
-}
-
-.description_knowledge{
-    margin: 1rem 0;
-    border: 2px solid gray;
-    border-radius: 1rem;
-    padding: 1rem 2rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: space-between;
-
-    width: 100%;
+#title_knowledge {
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding: 2rem;
 }
 
-.title_description_knowledge{
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-    padding: .1rem;
+.description_knowledge {
+  margin: 1rem 0;
+  border: 2px solid gray;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
 
-    text-align:left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: space-between;
+
+  width: 100%;
+}
+
+.title_description_knowledge {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  padding: 0.1rem;
+
+  text-align: left;
 }
 
 @media screen and (min-width: 500px) {
-    .knowledge{
-        padding: 3rem 15rem;
-    }
-    .title_description_knowledge{
-        text-align: center;
-    }
-
+  .knowledge {
+    padding: 3rem 15rem;
+  }
+  .title_description_knowledge {
+    text-align: center;
+  }
 }
