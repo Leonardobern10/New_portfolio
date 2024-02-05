@@ -1,3 +1,66 @@
+
+@media screen and (max-width: 500px) {
+    #presentation_main{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    
+        font-weight: 700;
+    
+    }
+    .item_main{
+        margin: 1rem 0;
+        padding: .5rem .5rem;
+    }
+    
+    
+    #container_img_main{
+        margin: 1rem 0;
+    }
+    
+    
+    .container_p_main{
+        width: 100%;
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    
+        text-align: justify;
+    
+    }
+    
+    .container_p_main p{
+        font-size: 1.4rem;
+    }
+    
+    #span_p1_main{
+        letter-spacing: -1px;
+        margin-right: 8px;
+    }
+    
+    #span_p2_main{
+        letter-spacing: 2px;
+    }
+    
+    #span_p3_main{
+        font-weight: 400;
+        letter-spacing: -1px;
+    }
+    
+    #profile_main{
+        text-align: left;
+    }
+
+    #container_buttons{
+        margin-top: 3rem;
+    }
+    
+}
 main{
     display: flex;
     flex-direction: column;
@@ -7,70 +70,12 @@ main{
     font-family: "Sora", sans-serif;
 }
 
-.item_main{
-    margin: 1rem 0;
-    padding: .5rem .5rem;
-}
-
-
-#container_img_main{
-    margin: 1rem 0;
-}
-
-#presentation_main{
-    width: 100%;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-
-    font-weight: 700;
-
-}
-
-.container_p_main{
-    width: 100%;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-
-    text-align: justify;
-
-}
-
-.container_p_main p{
-    font-size: 1.4rem;
-}
-
-#span_p1_main{
-    letter-spacing: -1px;
-    margin-right: 8px;
-}
-
-#span_p2_main{
-    font-family: 'Unbounded', sans-serif;
-    letter-spacing: 2px;
-}
-
-#span_p3_main{
-    font-weight: 400;
-    letter-spacing: -1px;
-}
-
-#profile_main{
-    text-align: left;
-}
-
 #container_buttons{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
 }
-
 
 .button_social_media{
     background-position: center;
@@ -83,8 +88,6 @@ main{
 
     margin: 0 1rem;
 }
-
-
 
 #instagram{
     background-image: url("../images/instagram_1400829.png");
@@ -100,4 +103,69 @@ main{
 
 #facebook{
     background-image: url("../images/social_12942738.png");
+}
+
+
+@media screen and (min-width: 500px) {
+    
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-self: center;
+
+        width: 80%;
+
+        margin: 2rem 0;
+
+    }
+    #container_img_main{
+        display: flex;
+        justify-content: center;
+
+        height: 100%;
+        width: 50%;
+    }
+    #container_img_main img{
+
+        width: 80%;
+        height: 80%;
+    }
+    .container_description_main{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+
+        width: 50%;
+        height: 30%;
+    }
+    #presentation_main{
+        font-size: 2rem;
+        padding-top: 6rem;
+        font-family: 'Rubik Doodle Shadow', system-ui;
+    }
+    #container_buttons{
+        align-self: center;
+        margin: 1rem;
+    }
+    #profile_main{
+        padding: 2rem 0;
+    }
+
+}
+
+#span_p1_main{
+
+}
+#span_p2_main{
+
+}
+#span_p3_main{
+    
+}
+
+main{
+    font-family: 'Sora', sans-serif;
 }

@@ -18,7 +18,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Unbounded:wght@700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Orbitron&family=Rubik+Doodle+Shadow&family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
     <title>Personal Site's Leonardo</title>
 </head>
 <body>
@@ -29,35 +29,49 @@
             </div>
             <p class="name_head">Leonardo</p>
         </div>
+        <div class="menu_options_desktop_head">
+            <div class="options_desktop">About me</div>
+            <div class="options_desktop">Conhecimentos</div>
+            <div class="options_desktop">Skills</div>
+            <div class="options_desktop">Projetos</div>
+            <div class="options_desktop">Contact me</div>
+        </div>
         <div class="menu_head head"></div>
+        <button type="button" class="download_resume_head">
+            <p>Resume</p>
+        </div>
     </header>
     <main>
         <div class="item_main" id="container_img_main">
             <img src="./assets/images/Frame 20.png" alt="homem com computador no colo">
         </div>
-        <div class="item_main" id="presentation_main">
-            <div class="container_p_main" id="p_main_1">
-                <p><span id="span_p1_main">Olá, eu sou</span>Leonardo Bernardo.</p>
+        
+        <div class="container_description_main">
+            <div class="item_main" id="presentation_main">
+                <div class="container_p_main" id="p_main_1">
+                    <p><span id="span_p1_main">Olá, eu sou</span> Leonardo Bernardo.</p>
+                </div>
+                <div class="container_p_main" id="p_main_2">
+                    <p>Desenvolvedor <span id="span_p2_main">Full-Stack.</span></p>
+                </div> 
+                <div class="container_p_main">
+                    <p><span id="span_p3_main">Localizado no</span> Brasil.</p>
+                </div>
             </div>
-            <div class="container_p_main" id="p_main_2">
-                <p>Desenvolvedor <span id="span_p2_main">Full-Stack.</span></p>
-            </div> 
-            <div class="container_p_main">
-                <p><span id="span_p3_main">Localizado no</span> Brasil.</p>
-            </div>
-        </div>
-        <div id="profile_main" class="item_main">
+            <div id="profile_main" class="item_main">
             Olá! Meu nome é Leonardo Bernardo, e esse é meu site, sejam muito bem-vindos! É 
             um enorme prazer tê-los aqui. Aqui você irá verificar todos os meus conhecimentos e 
             projetos. Além disso, é possivel entrar em contato comigo. Espero que goste e que 
-            em algum momento possamos ter contanto. 
-        </div>
-        <div id="container_buttons">
+            em algum momento possamos ter contato. 
+            </div>
+            <div id="container_buttons">
             <a href="https://www.instagram.com/dev_leonardobern/" class="container_link_button button_social_media" id="instagram"></a>
             <a href="https://www.linkedin.com/in/leonardo-bern/" class="container_link_button button_social_media" id="linkedin"></a>
             <a href="https://twitter.com/Leonardobern10" class="container_link_button button_social_media" id="twitter"></a>
             <a href="https://www.facebook.com/leonardo.dealmeida.100" class="container_link_button button_social_media" id="facebook"></a>                
-        </div>
+            </div>
+
+    </div>
     </main>
     <section class = "skills">
         <p id="titulo_skills"><span id="design_title_skills">My</span>Skills</p>
@@ -149,21 +163,24 @@
         <div id="container_img_about_me">
             <img src="./assets/images/column.png" alt="homem_de_braços_cruzados">
         </div>
-        <h3 id="title_about_me">About Me</h3>
-        <p class="p_about_me">Olá! Sou Leonardo de Almeida Bernardo, um entusiasta da Ciência da Computação, atualmente com 26 anos, residente em Porto Alegre, mas com raízes cariocas. Estou animado em compartilhar um pouco sobre minha jornada até aqui.</p>
-        <p class="p_about_me">Atualmente, sou estudante de Ciência da Computação (cursando o 3º Semestre), mergulhando nos desafios fascinantes e inovadores que essa área oferece. Minha jornada acadêmica tem sido uma experiência enriquecedora, proporcionando-me as bases teóricas essenciais para a prática da programação.</p>
-        <p class="p_about_me">Minha paixão pela programação começou antes mesmo da universidade. Há dois anos, mergulhei nos mundos intricados da codificação por meio de livros e cursos online. A busca pelo conhecimento autodidata tem sido um caminho empolgante, proporcionando-me insights valiosos e habilidades práticas.</p>
-        <p class="p_about_me">Atualmente, estou em busca da minha primeira oportunidade profissional na área de programação. Estou comprometido em aplicar meu conhecimento adquirido de forma prática e contribuir positivamente para projetos desafiadores. Acredito que a resiliência e a busca constante por aprendizado são fundamentais para o sucesso nesta jornada.
-        <p class="p_about_me">Dedicação: Minha dedicação à programação vai além das salas de aula, refletindo-se em projetos pessoais e no aprimoramento contínuo das minhas habilidades.
-        <p class="p_about_me">Resolução de Problemas: Tenho uma abordagem proativa na resolução de desafios, abraçando cada obstáculo como uma oportunidade de aprendizado.</p>
-        <p class="p_about_me">Colaboração: Valorizo a importância da colaboração e estou ansioso para trabalhar em equipes dinâmicas, contribuindo para um ambiente de trabalho positivo.</p>
-        <p class="p_about_me">Estou aberto a novas conexões, aprendizados e desafios profissionais. Se você está em busca de alguém apaixonado por programação, comprometido e disposto a crescer, estou pronto para explorar oportunidades e contribuir para projetos empolgantes.</p>
-
+        <div class="container_text_about_me">
+            <h3 id="title_about_me">About <span id="span_title_about_me">Me</span></h3>
+            <p class="p_about_me">Olá! Sou Leonardo de Almeida Bernardo, um entusiasta da Tecnologia, atualmente com 26 anos, residente em Porto Alegre, mas com raízes cariocas. Estou animado em compartilhar um pouco sobre minha jornada até aqui.</p>
+            <p class="p_about_me">Atualmente, sou estudante de Ciência da Computação (cursando o 3º Semestre), mergulhando nos desafios fascinantes e inovadores que essa área oferece. Minha jornada acadêmica tem sido uma experiência enriquecedora, proporcionando-me as bases teóricas essenciais para a prática da programação.</p>
+            <p class="p_about_me">Minha paixão pela programação começou antes mesmo da universidade. Há dois anos, mergulhei nos mundos intricados da codificação por meio de livros e cursos online. A busca pelo conhecimento autodidata tem sido um caminho empolgante, proporcionando-me insights valiosos e habilidades práticas.</p>
+            <p class="p_about_me">Atualmente, estou em busca da minha primeira oportunidade profissional na área de programação. Estou comprometido em aplicar meu conhecimento adquirido de forma prática e contribuir positivamente para projetos desafiadores. Acredito que a resiliência e a busca constante por aprendizado são fundamentais para o sucesso nesta jornada.
+            <p class="p_about_me">Dedicação: Minha dedicação à programação vai além das salas de aula, refletindo-se em projetos pessoais e no aprimoramento contínuo das minhas habilidades.
+            <p class="p_about_me">Resolução de Problemas: Tenho uma abordagem proativa na resolução de desafios, abraçando cada obstáculo como uma oportunidade de aprendizado.</p>
+            <p class="p_about_me">Colaboração: Valorizo a importância da colaboração e estou ansioso para trabalhar em equipes dinâmicas, contribuindo para um ambiente de trabalho positivo.</p>
+            <p class="p_about_me">Estou aberto a novas conexões, aprendizados e desafios profissionais. Se você está em busca de alguém apaixonado por programação, comprometido e disposto a crescer, estou pronto para explorar oportunidades e contribuir para projetos empolgantes.</p>
+        </div>
     </div>
     <section class = "my_projects">
         <h3 class="title_my_projects">My Projects</h3>
-        <div class="container_project">
-            <div class="container_img_project" id="project1"></div>
+        <div class="container_project left">
+            <div class="container_img_project" id="project1">
+                <img src="assets/images/detona_ralph.jpeg" alt="Imagem_detona_ralph">
+            </div>
             <div class="info_project">
                 <a href="https://leonardobern10.github.io/detona-ralph/">
                     <p class="title_project">Jogo do Detona Ralph</p>
@@ -174,8 +191,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project2" ></div>
+        <div class="container_project right">
+            <div class="container_img_project" id="project2">
+                <img src="/assets/images/jogo_da_velha.png" alt="">
+            </div>
             <div class="info_project">
                 <a href="https://leonardobern10.github.io/Jogo-da-velha/">
                     <p class="title_project"> Jogo da Velha</p>
@@ -186,8 +205,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project3"></div>
+        <div class="container_project left">
+            <div class="container_img_project" id="project3">
+                <img src="/assets/images/jogo_da_memoria_com_textura_educacao_inclusiva_837_1_de1ec854d6c9385fa4c7bd17d2267bf8.webp" alt="">
+            </div>
             <div class="info_project">
                 <a href="https://leonardobern10.github.io/Jogo_da_memoria/">
                     <p class="title_project">Jodo da Memoria</p>
@@ -198,8 +219,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project4"></div>
+        <div class="container_project right">
+            <div class="container_img_project" id="project4">
+                <img src="/assets/images/listas-de-tarefas-significado-1024x576.jpeg" alt="">
+            </div>
             <div class="info_project">
                 <a href="https://leonardobern10.github.io/To-do-List/">
                     <p class="title_project">To-do List</p>
@@ -210,8 +233,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project5"></div>
+        <div class="container_project left">
+            <div class="container_img_project" id="project5">
+                <img src="/assets/images/pikachu.webp" alt="">
+            </div>
             <div class="info_project">
                 <a href="https://leonardobern10.github.io/Pokedex/">
                     <p class="title_project">Podédex</p>
@@ -222,8 +247,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project6"></div>
+        <div class="container_project right">
+            <div class="container_img_project" id="project6">
+                <img src="/assets/images/formula-IMC.png" alt="">
+            </div>
             <div class="info_project">
                 <a href="https://github.com/Leonardobern10/calculador_imc/blob/main/main.py">
                     <p class="title_project">Calculadora de IMC</p>
@@ -233,8 +260,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project7"></div>
+        <div class="container_project left">
+            <div class="container_img_project" id="project7">
+                <img src="/assets/images/analise_de_ecommere.jpg" alt="">
+            </div>
             <div class="info_project">
                 <a href="https://github.com/Leonardobern10/E-commerce">
                     <p class="title_project">Analise de E-commerce</p>
@@ -245,8 +274,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project8"></div>
+        <div class="container_project right">
+            <div class="container_img_project" id="project8">
+                <img src="/assets/images/analise_do_banco.webp" alt="">
+            </div>
             <div class="info_project">
                 <a href="https://github.com/Leonardobern10/BancoABC">
                     <p class="title_project">Análise do Banco ABC</p>
@@ -257,8 +288,10 @@
                 </p>
             </div>
         </div>
-        <div class="container_project">
-            <div class="container_img_project" id="project9"></div>
+        <div class="container_project left">
+            <div class="container_img_project" id="project9">
+                <img src="/assets/images/analise_de_dicurso.jpg" alt="">
+            </div>
             <div class="info_project">
                 <a href="http://https://github.com/Leonardobern10/NLP">
                     <p class="title_project">Análise de Discurso</p>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 .about_me{
     margin: .5rem 1rem;
     font-family: 'Sora', sans-serif;
@@ -12,4 +13,30 @@
 
 .p_about_me{
     margin: 1rem 0;
+}
+
+@media screen and (min-width: 500px){
+    .about_me{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .p_about_me{
+        display: flex;
+        flex-direction: column;
+    }
+    #container_img_about_me{
+        width: 40%;
+        height: 40%;
+
+        align-self: center;
+    }
+    .container_text_about_me{
+        width: 50%;
+
+        font-size: 0.8rem;
+    }
+    .about_me{
+        padding: 0 5rem;
+    }
 }

@@ -11,7 +11,9 @@
 
     padding: 1rem 1rem;
 }
-
+#span_title_about_me{
+    font-family: 'Rubik Doodle Shadow', system-ui;;
+}
 #title_knowledge{
     font-size: 1.7rem;
     font-weight: 700;
@@ -38,4 +40,14 @@
     padding: .1rem;
 
     text-align:left;
+}
+
+@media screen and (min-width: 500px) {
+    .knowledge{
+        padding: 3rem 15rem;
+    }
+    .title_description_knowledge{
+        text-align: center;
+    }
+
 }
