@@ -93,6 +93,12 @@ header {
     border-radius: 3px;
     border: none;
   }
+
+  #download_curriculo{
+    text-decoration: none;
+    color: white;
+  }
+
   .download_resume_head p::after {
     background-image: url("/assets/images/Icon.png");
     background-size: contain;
@@ -105,5 +111,9 @@ header {
   .download_resume_head p {
     font-size: 0.7rem;
     padding: 0.3rem;
+  }
+
+  .download_resume_head:hover{
+    cursor: pointer;
   }
 }
